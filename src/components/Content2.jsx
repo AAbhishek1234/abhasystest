@@ -135,14 +135,14 @@ function Content2() {
           </p>
         </Col>
         <Col xs={12} md={6} className="image-col no-padding">
-          <img src="/images/we.png" alt="development" className="full-width-image" />
+          <img src="/Images/we.png" alt="development" className="full-width-image" />
         </Col>
       </Row>
 
       {/* Third Section */}
       <Row className="align-items-start custom-section no-padding">
         <Col xs={12} md={6} className="image-col no-padding">
-          <img src="/images/dm.jpg" alt="digitalmarkteing" className="full-width-image" />
+          <img src="/Images/dm.jpg" alt="digitalmarkteing" className="full-width-image" />
         </Col>
         <Col xs={12} md={6} className="text-section social-text">
           <h2 className="social-heading">Digital Marketing & Social Media Management</h2>
@@ -162,14 +162,14 @@ function Content2() {
           </p>
         </Col>
         <Col xs={12} md={6} className="image-col no-padding">
-          <img src="/images/software.jpg" alt="softwaredevelopment" className="full-width-image" />
+          <img src="/Images/software.jpg" alt="softwaredevelopment" className="full-width-image" />
         </Col>
       </Row>
 
       {/* Fifth Section */}
       <Row className="align-items-start custom-section no-padding">
         <Col xs={12} md={6} className="image-col no-padding">
-          <img src="/images/appdevelopment.avif" alt="mobileapplication" className="full-width-image" />
+          <img src="/Images/appdevelopment.avif" alt="mobileapplication" className="full-width-image" />
         </Col>
         <Col xs={12} md={6} className="text-section mobile-text">
           <h2 className="mobile-heading">Mobile Application Development</h2>

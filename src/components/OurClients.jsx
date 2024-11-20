@@ -4,10 +4,10 @@ import './ourclients.css'; // Create this file for custom styling
 
 // Sample data for clients
 const clients = [
-  { id: 1, name: 'Shree Banke Bihari Mandir', logo: '/images/abovenav.png' },
+  { id: 1, name: 'Shree Banke Bihari Mandir', logo: '/Images/abovenav.png' },
   { id: 2, name: 'Digital Marketing', logo: '/images/client2-logo.png' },
   { id: 3, name: 'CollegeMilgya', logo: '/images/' },
-  { id: 4, name: 'Dreams On Wheelz', logo: '/images/dreamslogo.jpg' },
+  { id: 4, name: 'Dreams On Wheelz', logo: '/Images/dreamslogo.jpg' },
  
 ];
 
