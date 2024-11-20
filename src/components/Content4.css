@@ -1,0 +1,10 @@
+.testimonials-section {
+    padding: 2rem;
+    background-color: #f8f9fa; /* Light background for contrast */
+  }
+  
+  .testimonial-card {
+    border: none;
+    border-radius: 10px;
+  }
+  

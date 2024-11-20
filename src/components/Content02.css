@@ -1,0 +1,50 @@
+.about-us-section {
+  padding: 4rem 2rem; /* Add more padding for a spacious look */
+  background-color: #f8f9fa; /* Light background for contrast */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.about-us-heading {
+  text-align: center; /* Center the heading */
+  margin-bottom: 3rem; /* Space between heading and content */
+  font-size: 2.5rem; /* Adjust font size as needed */
+  font-weight: bold; /* Make the heading bold */
+  color: #343a40; /* Darker color for text */
+}
+
+.about-card {
+  border-radius: 10px; /* Rounded corners for the card */
+  overflow: hidden; /* Ensure rounded corners are effective */
+}
+
+.about-image {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-top-left-radius: 10px; /* Rounded corners for the left side */
+  border-top-right-radius: 10px; /* Rounded corners for the right side */
+}
+
+.about-text-col {
+  padding: 2rem; /* Add padding for text */
+  text-align: left; /* Align text to the left */
+}
+
+.about-card .card-text {
+  font-size: 1.1rem; /* Adjust text size for readability */
+  line-height: 1.6; /* Increase line height for better readability */
+}
+
+.shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Ensure the Row and Col do not exceed their parent's width */
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col, .col-6, .col-md-6 {
+  padding-left: 0;
+  padding-right: 0;
+}

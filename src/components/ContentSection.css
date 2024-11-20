@@ -1,0 +1,35 @@
+.content-section {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-image {
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-text p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-family: 'Georgia', serif;
+    text-align: justify;
+  }
+  
+  @media (max-width: 768px) {
+    .content-section {
+      padding: 30px;
+    }
+  
+    .content-text p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
+  

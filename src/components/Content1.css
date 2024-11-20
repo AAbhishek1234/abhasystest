@@ -1,0 +1,105 @@
+/* Container for the entire section
+.dispaly-4{
+  top:10rem;
+}
+.content1 {
+  height: 150px;
+  margin-left: 100px;
+  width: 1100px;
+  background-color: #8fc6eb;
+  padding: 60px 20px;
+  margin-top: 10rem;
+  border-radius: 80px;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  box-shadow: #000000 0px 0px 20px;
+}
+
+/* Text container to control spacing and layout */
+.text-container {
+  
+}
+
+/* Main headline */
+.headline {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: -20px;
+  color: black;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+/* Description paragraph */
+.description {
+  color: black;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 20px;
+}
+
+/* Uncomment and style the image if needed */
+/* 
+.semi-circle {
+  position: absolute;
+  bottom: -50px;
+  right: -100px;
+  width: 300px;
+  height: auto;
+  opacity: 0.8;
+} 
+*/
+
+/* Media Queries for Mobile and Small Screens */
+
+/* For screens less than or equal to 768px */
+@media (max-width: 768px) {
+  .content1 {
+    width: 100vw;
+    margin-left: 5%;
+    padding: 40px 15px;
+    border-radius: 50px;
+  }
+  
+  .headline {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .description {
+    font-size: 0.5rem;
+  }
+}
+
+/* For screens less than or equal to 480px */
+@media (max-width: 480px) {
+  .content1 {
+    height: 100px;
+    width: 90vw;
+    margin-left: 2%;
+    padding: 30px 10px;
+    border-radius: 30px;
+  }
+  
+  .headline {
+    margin-top: -10px;
+    font-size: 1.1rem;
+  }
+  
+  .description {
+    font-size: 0.775rem;
+    margin-top: 5px;
+  }
+} */
+
+.custom-happen {
+  color: #000000; /* Black color */
+  font-weight: bold; /* Optional: Make it bold */
+  text-decoration: underline; /* Optional: Add underline */
+}

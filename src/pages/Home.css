@@ -1,0 +1,80 @@
+/* .navbarrr{
+    position: fixed;
+} */
+
+
+body {
+    overflow-x: hidden !important;
+  }
+
+
+
+  /* Ensure no horizontal overflow on small screens */
+@media (max-width: 768px) {
+    body {
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+  
+    /* Ensure all containers and elements adjust to the screen width */
+    .container-fluid,
+    .navbar-collapse,
+    .row {
+      width: 100%;
+      overflow-x: hidden;
+      padding: 0;
+      margin: 0;
+    }
+  
+    /* Make images responsive */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    /* Navbar adjustments for mobile */
+    .navbar {
+      width: 100%;
+      overflow-x: hidden;
+    }
+  
+    /* Adjusting navbar links and their padding for mobile */
+    .nav-item {
+      font-size: 16px !important; /* Adjust font size */
+      margin-left: 0.5rem !important; /* Reduce space between items */
+    }
+  
+    .nav-item.active {
+      font-weight: 600;
+    }
+  
+    /* Adjust navbar toggle button positioning */
+    .navbar-toggler {
+      position: absolute;
+      right: 10px;
+      top: 15px;
+      border: none;
+      background-color: #0056b3;
+      color: white;
+      width: 40px;
+      height: 40px;
+      z-index: 1050;
+    }
+  
+    /* Fix flexbox layout */
+    .row {
+      display: flex;
+      flex-wrap: wrap; /* Ensure elements wrap on smaller screens */
+    }
+  
+    .col {
+      flex: 1 1 100%; /* Make sure columns stack on mobile */
+    }
+  }
+  
+  /* Make sure the box-sizing is set correctly */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  

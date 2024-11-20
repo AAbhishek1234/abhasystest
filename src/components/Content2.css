@@ -1,0 +1,246 @@
+/* .custom-section {
+  margin: 2rem 0;
+}
+
+.full-width-image {
+  width: 35vw;
+  height: auto;
+  object-fit: cover;
+}
+
+.text-section {
+  padding: 2rem;
+}
+.text-section h2 {
+  margin-top: -7rem;
+}
+.no-padding {
+  padding: 0 !important;
+}
+
+.image-col {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.text-section h2 {
+  margin-top: -7rem;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-section {
+  margin: 2rem 0;
+}
+
+/* .full-width-image {
+  width: 35rem;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 5px;
+} */
+
+/* 
+.text-section {
+  padding: 1.5rem;
+}
+
+.website-text .website-heading {
+  font-size: 2rem;
+  margin-top: -10rem !important;
+  color: black !important;
+}
+.website-text .website-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: black !important;
+}
+
+.social-text .social-heading {
+  font-size: 2rem;
+  margin-top: -10rem !important;
+  color: black !important;
+}
+.social-text .social-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color:black !important;
+}
+
+.software-text .software-heading {
+  font-size: 2rem;
+  margin-top: -10rem !important;
+  color:black !important;
+}
+.software-text .software-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: black !important;
+}
+
+.mobile-text .mobile-heading {
+  font-size: 2rem;
+  margin-top: -10rem !important;
+  color: black !important;
+}
+.mobile-text .mobile-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: black !important;
+}
+
+@media (max-width: 768px) {
+  .text-section h2 {
+    font-size: 1.8rem;
+  }
+  .text-section p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-section h2 {
+    font-size: 1.5rem;
+  }
+  .text-section p {
+    font-size: 0.8rem;
+  }
+} *//* General Section Styling */
+/* General Styles */
+.container-fluid {
+  padding: 0;
+}
+
+.custom-section {
+  padding: 2rem 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-items-start {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+}
+
+/* Section Heading */
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black !important;
+  margin-bottom: 1.5rem;
+  margin-top: 0; /* Ensure no top margin */
+}
+
+/* Text Sections */
+.text-section h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: black !important;
+  /* Remove negative margins */
+}
+
+.text-section p {
+  font-size: 1.3rem !important;
+  color: black !important;
+  line-height: 1.2;
+  margin-bottom: 1rem; /* Consistent spacing below the text */
+}
+
+.website-text .website-heading,
+.social-text .social-heading,
+.software-text .software-heading,
+.mobile-text .mobile-heading {
+  color: black !important;
+  /* Remove negative margins */
+}
+
+/* Image Columns */
+.image-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-width-image {
+  width: 100%;
+  /* max-width: 100%; */
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .custom-section {
+    padding: 1.5rem 0;
+  }
+
+  .text-section h2 {
+    font-size: 1.5rem;
+    margin-top: 0; /* Ensure no overlap */
+  }
+
+  .text-section p {
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .section-heading {
+    font-size: 2rem;
+  }
+
+  .website-text .website-heading,
+  .social-text .social-heading,
+  .software-text .software-heading,
+  .mobile-text .mobile-heading {
+    margin-top: 0; /* Remove unnecessary margins for mobile */
+  }
+}
+
+@media (max-width: 576px) {
+  .text-section h2 {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+
+  .text-section p {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-heading {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .full-width-image {
+    height: 339px; /* Adjust this height as needed */
+    object-fit: cover; /* Ensures the image doesn't stretch */
+  }
+}

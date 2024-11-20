@@ -1,0 +1,17 @@
+.strip{
+    width: 100% !important;
+}
+.after{
+    font-size: 25px;
+    width: 15rem;
+    height: 8rem !important;
+}
+.container1{
+    height:100px !important;
+    width: 200px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 5px  black  !important;
+}

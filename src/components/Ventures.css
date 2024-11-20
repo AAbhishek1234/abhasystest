@@ -1,0 +1,49 @@
+.features-section {
+    background-color: #f7f9fc;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  .section-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .section-paragraph {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+  }
+  
+  .feature-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-heading {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  /* Media Query for Small Screens */
+  @media (max-width: 768px) {
+    .section-heading {
+      font-size: 1.75rem;
+    }
+  
+    .section-paragraph {
+      font-size: 1rem;
+    }
+  }
+  
