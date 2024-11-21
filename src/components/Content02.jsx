@@ -6,7 +6,7 @@ import './Content02.css'; // Ensure this file exists for custom styles
 const Content02 = () => {
   return (
     <Container fluid className="about-us-section">
-      <h2 className="about-us-heading">About Us</h2>
+      <h2 className="about-us-heading" style={{color:"black"}}>About Us</h2>
       <Row className="align-items-center justify-content-center">
         <Col xs={12} md={8}>
           <Card className="about-card shadow">

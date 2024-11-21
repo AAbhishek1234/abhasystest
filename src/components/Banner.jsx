@@ -12,7 +12,7 @@ function Banner() {
     <>
     <div className='Banner' style={{marginTop:"6rem"}}>
     <div className='banner-content' >
-    <div className="heading" style={{}}>
+    <div className="heading">
   Got an <span id='idea' >idea?</span><br/>
   Take it to the world<br/>
   <div className="scroll-container">
