@@ -482,15 +482,18 @@ p {
     }
 
     /* Place the vector (globe) under the images */
-    #vector {
-        position: relative;
-        margin-top: 30px;
-        height: 200px;
-        width: 200px;
-        margin-left: 50%;
-        transform: translateX(-50%);
+    @media only screen and (max-width: 768px) {
+        #vector {
+            height: 150px; /* Smaller height for the globe */
+            width: 150px; /* Smaller width for the globe */
+            margin-top: 320px !important; /* Adjust the top margin */
+            margin-left: 50%; /* Center it horizontally */
+            transform: translateX(-50%); /* Ensure it's centered */
+        }
+    
+      
     }
-
+    
     h1 {
         font-size: 30px;
     }
@@ -508,6 +511,7 @@ p {
         height: 200px;
         width: 200px;
         margin-top: 30px;
+        bottom: 20px;
         /* left: -50%; */
         /* transform: translateX(-50%); */
     }
@@ -535,12 +539,12 @@ p {
         font-size: 18px;
         width: 90%;
         margin: 15px auto;
-        top: 0.9rem;
+        top: 1rem;
     }
 
 
     .scroll-up-down {
-        font-size: 25px;
+        font-size: 32px;
     }
 
     #b1 {
@@ -572,7 +576,7 @@ p {
 }
 .box-3{
     margin-top: 10px;
-    /* position: absolute; */
+    /* position: relative; */
     margin-left: 70vw;
 }
     .p-under-p {
