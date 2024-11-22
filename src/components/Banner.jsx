@@ -2,10 +2,9 @@ import React from 'react'
 import './Banner.css'
 function Banner() {
 
-  const phoneNumber = "+91 9871418686"; // Replace with the desired phone number
+  const phoneNumber = "+91 9871418686"; 
 
   const handleGetStartedClick = () => {
-    // Create a link to call the phone number
     window.location.href = `tel:${phoneNumber}`;
   };
   return (
