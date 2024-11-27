@@ -122,9 +122,9 @@ const Footer = () => {
           <div className="col-md-4 mb-3">
             <h5>Contact Us</h5>
             <ul className="list-unstyled">
-              <li><a href="tel:+123456789" style={{color:"white",textDecoration:"none"}}><i className="bi bi-phone"></i>+91 9717024896 </a></li>
-              <li><a href="mailto:contactabhasys@gmail.com" style={{color:"white",textDecoration:"none"}}><i className="bi bi-envelope"></i> contactabhasys@gmail.com</a></li>
-              <li><a href="https://www.google.com/maps/search/?api=1&parameters" style={{color:"white",textDecoration:"none"}}><i className="bi bi-geo-alt"></i> 123 Main St, City, Country</a></li>
+              <li><a href="tel:+123456789" style={{color:"white",textDecoration:"none"}}><i className="bi bi-phone"></i> +91 9717024896 </a></li>
+              <li><a href="mailto:contactabhasys@gmail.com" style={{color:"white",textDecoration:"none"}}><i className="bi bi-envelope"></i>  contactabhasys@gmail.com</a></li>
+              <li><a href="https://www.google.com/maps/search/?api=1&parameters" style={{color:"white",textDecoration:"none"}}><i className="bi bi-geo-alt"></i> Faridabad</a></li>
             </ul>
           </div>
         </div>
