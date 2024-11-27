@@ -1,3 +1,6 @@
+
+
+
 .navbar {
     background-color:aliceblue !important; 
     z-index: 1000;
@@ -5,13 +8,15 @@
 }
 
 .nav-item {
+
     color:black !important; 
     font-size: 20px !important;
     margin-right: 2rem !important;
-
     font-weight: 600; 
     transition: color 0.3s ease;
-    position: relative; }
+    position: relative; 
+
+}
 
 .nav-item:hover {
     color: #ffd700; 
@@ -52,4 +57,4 @@
 
 .page-content {
     padding-top: 80px; 
-}
+} 

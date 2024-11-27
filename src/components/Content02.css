@@ -1,7 +1,9 @@
 .about-us-section {
-  padding: 4rem 2rem; /* Add more padding for a spacious look */
+  padding: 2rem 1rem; /* Add more padding for a spacious look */
   background-color: #f8f9fa; /* Light background for contrast */
-  overflow: hidden; /* Prevent overflow */
+  overflow: hidden; 
+  margin-top: -50px !important;/* Prevent overflow */
+
 }
 
 .about-us-heading {
