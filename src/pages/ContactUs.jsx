@@ -15,9 +15,9 @@ function ContactUs() {
         <Col xs={12} md={4} className="contact-info text-center mb-4">
           <h4>Get in Touch</h4>
           <p>We'd love to hear from you! Reach out via any of the methods below:</p>
+           
           <p><strong>Email:</strong> contactabhasys@gmail.com</p>
           <p><strong>Phone:</strong> +91 9717024896</p>
-          <p><strong>Address:</strong> 123 Main St, City, Country</p>
         </Col>
         
         {/* Contact Form */}

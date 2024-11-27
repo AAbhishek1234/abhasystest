@@ -4,6 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { scroller } from 'react-scroll';
 import './Navbar.css';
 
+
 function CusNavbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
@@ -30,7 +31,7 @@ function CusNavbar() {
           <img
             src="/Images/Abhasys-logo6.png"
             alt="Logo"
-            style={{ height: '50px', width: '100%'  }}
+            style={{ height: '50px', width: '100%' }}
           />
         </Navbar.Brand>
 
