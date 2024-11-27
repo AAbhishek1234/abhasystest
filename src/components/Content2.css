@@ -149,11 +149,12 @@
 }
 
 .section-heading {
-  font-size: 2.5rem;
+  font-size: 2.5rem !important;
   font-weight: bold;
-  color: black !important;
-  margin-bottom: 1.5rem;
+  color:black !important;
+  margin-bottom: 1rem !important;
   margin-top: 0;
+
 }
 
 .text-section h2 {
@@ -217,7 +218,7 @@
   }
 
   .section-heading {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 
   .website-text .website-heading,
@@ -248,7 +249,7 @@
   }
 
   .section-heading {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
 
   /* Further decrease image width for extra small screens */

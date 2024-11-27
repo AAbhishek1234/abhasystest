@@ -9,7 +9,7 @@ function Content2() {
     <Container fluid>
       <Row className="align-items-start custom-section">
         <Col xs={12} md={12} className="text-center">
-          <h1 className="section-heading">Our Services</h1>
+          <h2 className="section-heading">Our Services</h2>
         </Col>
       </Row>
 
