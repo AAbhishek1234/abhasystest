@@ -16,7 +16,7 @@ function ContactUs() {
           <h4>Get in Touch</h4>
           <p>We'd love to hear from you! Reach out via any of the methods below:</p>
           <p><strong>Email:</strong> contactabhasys@gmail.com</p>
-          <p><strong>Phone:</strong> +91 9871428686</p>
+          <p><strong>Phone:</strong> +91 9717024896</p>
           <p><strong>Address:</strong> 123 Main St, City, Country</p>
         </Col>
         

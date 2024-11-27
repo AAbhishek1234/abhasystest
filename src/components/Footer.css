@@ -112,3 +112,11 @@
         width: 20px;
     }
 }
+
+
+@media (max-width: 767px) {
+    .footer .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+  
