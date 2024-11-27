@@ -1,35 +1,32 @@
 /* 
+
+
 .custom-section {
   margin: 2rem 0;
 }
 .container-fluid {
   padding: 0;
 }
-
 .custom-section {
   padding: 2rem 0;
 }
-
 .no-padding {
   padding: 0;
 }
-
 .text-center {
   text-align: center;
 }
-
 .align-items-start {
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start;
 }
-
 
 .section-heading {
   font-size: 2.5rem;
   font-weight: bold;
   color: black !important;
   margin-bottom: 1.5rem;
-  margin-top: 0; 
+  margin-top: 0;
 }
 
 .text-section h2 {
@@ -43,7 +40,7 @@
   font-size: 1.3rem !important;
   color: black !important;
   line-height: 1.2;
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
 .website-text .website-heading,
@@ -66,15 +63,24 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
 @media (max-width: 768px) {
   .custom-section {
+    flex-direction: column; 
     padding: 1.5rem 0;
+  }
+
+  .text-section {
+    order: 1; 
+  }
+
+  .image-col {
+    order: 2; 
+    margin-top: 1rem; 
   }
 
   .text-section h2 {
     font-size: 1.5rem;
-    margin-top: 0; 
+    margin-top: 0;
   }
 
   .text-section p {
@@ -90,7 +96,7 @@
   .social-text .social-heading,
   .software-text .software-heading,
   .mobile-text .mobile-heading {
-    margin-top: 0; 
+    margin-top: 0;
   }
 }
 
@@ -112,11 +118,12 @@
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .full-width-image {
-    height: 339px; 
-    object-fit: cover; 
+    height: 339px;
+    object-fit: cover;
+    margin-right: 1rem;
+    margin-left: 1rem;
   }
 } */
-
 
 
 
@@ -219,6 +226,13 @@
   .mobile-text .mobile-heading {
     margin-top: 0;
   }
+
+  /* Decrease image width for mobile view */
+  .full-width-image {
+    width: 80%; /* Adjust the width to 80% on mobile */
+    max-width: 100%; /* Ensure images don’t exceed their container's width */
+    margin: 0 auto; /* Center the image */
+  }
 }
 
 /* Extra Small Screen Adjustments */
@@ -235,6 +249,11 @@
 
   .section-heading {
     font-size: 1.8rem;
+  }
+
+  /* Further decrease image width for extra small screens */
+  .full-width-image {
+    width: 90%; /* Further reduce image size for very small screens */
   }
 }
 

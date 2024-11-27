@@ -48,11 +48,7 @@ function CusNavbar() {
     </Navbar>
   );
 }
-
 export default CusNavbar;
-
-
-
 
 
 

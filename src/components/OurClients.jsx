@@ -5,8 +5,8 @@ import './ourclients.css'; // Create this file for custom styling
 // Sample data for clients
 const clients = [
   { id: 1, name: 'Shree Banke Bihari Mandir', logo: '/Images/abovenav.png' },
-  { id: 2, name: 'Digital Marketing', logo: '/images/client2-logo.png' },
-  { id: 3, name: 'CollegeMilgya', logo: '/images/' },
+  { id: 2, name: 'Digital Marketing', logo: '/Images/Screenshot (334).png' },
+  { id: 3, name: 'CollegeMilgya', logo: '/Images/Screenshot (333).png' },
   { id: 4, name: 'Dreams On Wheelz', logo: '/Images/dreamslogo.jpg' },
  
 ];
