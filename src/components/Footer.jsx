@@ -104,7 +104,7 @@ const Footer = () => {
               <li><a href="/home" style={{color:"white",textDecoration:"none"}} >Home</a></li>
               <li><a onClick={() => handleScrollOrNavigate('/home', 'about')} style={{color:"white",textDecoration:"none", cursor:"pointer"}}>About Us</a></li>
               <li><a onClick={() => handleScrollOrNavigate('/home', 'services')}style={{color:"white",textDecoration:"none"}}>Services</a></li>
-              <li><a href="/contact" style={{color:"white",textDecoration:"none"}}>Contact Us</a></li>
+              <li><a href="/Contact" style={{color:"white",textDecoration:"none"}}>Contact Us</a></li>
             </ul>
           </div>
 
