@@ -12,7 +12,7 @@ function CusNavbar() {
 
   const handleScrollOrNavigate = (path, targetId) => {
     if (location.pathname === '/home') {
-      scroller.scrollTo(targetId, { smooth: true, duration: 500, offset: -70 });
+      scroller.scrollTo(targetId, { smooth: true, duration: 10, offset: -70 });
     } else {
       navigate(path, { state: { targetId } });
     }
