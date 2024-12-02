@@ -70,12 +70,10 @@
 
 
 
-
-
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { scroller } from 'react-scroll';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './Content3.css';
 
@@ -85,10 +83,8 @@ const Footer = () => {
 
   const handleScrollOrNavigate = (path, targetId) => {
     if (location.pathname === '/home') {
-      // Smooth scroll within homepage using scroller
       scroller.scrollTo(targetId, { smooth: true, duration: 500, offset: -70 });
     } else {
-      // Navigate to the homepage with target component state
       navigate(path, { state: { targetId } });
     }
   };
@@ -97,14 +93,28 @@ const Footer = () => {
     <footer className="bg-dark text-white pt-4">
       <div className="container">
         <div className="row">
-          {/* About Section */}
+          {/* Company Section */}
           <div className="col-md-4 mb-3">
             <h5>Company</h5>
             <ul className="list-unstyled">
-              <li><a href="/home" style={{color:"white",textDecoration:"none"}} >Home</a></li>
-              <li><a onClick={() => handleScrollOrNavigate('/home', 'about')} style={{color:"white",textDecoration:"none", cursor:"pointer"}}>About Us</a></li>
-              <li><a onClick={() => handleScrollOrNavigate('/home', 'services')}style={{color:"white",textDecoration:"none"}}>Services</a></li>
-              <li><a href="/Contact-us" style={{color:"white",textDecoration:"none"}}>Contact Us</a></li>
+              <li><Link to="/home" style={{ color: "white", textDecoration: "none" }}>Home</Link></li>
+              <li>
+                <a
+                  onClick={() => handleScrollOrNavigate('/home', 'about')}
+                  style={{ color: "white", textDecoration: "none", cursor: "pointer" }}
+                >
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a
+                  onClick={() => handleScrollOrNavigate('/home', 'services')}
+                  style={{ color: "white", textDecoration: "none", cursor: "pointer" }}
+                >
+                  Services
+                </a>
+              </li>
+              <li><Link to="/Contact-us" style={{ color: "white", textDecoration: "none" }}>Contact Us</Link></li>
             </ul>
           </div>
 
@@ -112,9 +122,36 @@ const Footer = () => {
           <div className="col-md-4 mb-3">
             <h5>We Are Social</h5>
             <ul className="list-unstyled">
-              <li><a href="https://facebook.com" style={{color:"white",textDecoration:"none"}}><i className="bi bi-facebook"></i> Facebook</a></li>
-              <li><a href="https://twitter.com" style={{color:"white",textDecoration:"none"}}><i className="bi bi-twitter"></i> Twitter</a></li>
-              <li><a href="https://instagram.com" style={{color:"white",textDecoration:"none"}} className='me-3'><i className="bi bi-instagram"></i> Instagram</a></li>
+              <li>
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
+                  <i className="bi bi-facebook"></i> Facebook
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
+                  <i className="bi bi-twitter"></i> Twitter
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
+                  <i className="bi bi-instagram"></i> Instagram
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -122,9 +159,26 @@ const Footer = () => {
           <div className="col-md-4 mb-3">
             <h5>Contact Us</h5>
             <ul className="list-unstyled">
-              <li><a href="tel:+123456789" style={{color:"white",textDecoration:"none"}}><i className="bi bi-phone"></i> +91 9717024896 </a></li>
-              <li><a href="mailto:contactabhasys@gmail.com" style={{color:"white",textDecoration:"none"}}><i className="bi bi-envelope"></i>  contactabhasys@gmail.com</a></li>
-              <li><a href="https://www.google.com/maps/search/?api=1&parameters" style={{color:"white",textDecoration:"none"}}><i className="bi bi-geo-alt"></i> Faridabad</a></li>
+              <li>
+                <a href="tel:+919717024896" style={{ color: "white", textDecoration: "none" }}>
+                  <i className="bi bi-phone"></i> +91 9717024896
+                </a>
+              </li>
+              <li>
+                <a href="mailto:contactabhasys@gmail.com" style={{ color: "white", textDecoration: "none" }}>
+                  <i className="bi bi-envelope"></i> contactabhasys@gmail.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.google.com/maps?q=Faridabad"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "white", textDecoration: "none" }}
+                >
+                  <i className="bi bi-geo-alt"></i> Faridabad
+                </a>
+              </li>
             </ul>
           </div>
         </div>
