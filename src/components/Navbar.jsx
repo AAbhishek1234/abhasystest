@@ -42,7 +42,7 @@ function CusNavbar() {
             <Nav.Link onClick={() => handleScrollOrNavigate('/home', 'about')} className="nav-item tab">About Us</Nav.Link>
             <Nav.Link onClick={() => handleScrollOrNavigate('/home', 'services')} className="nav-item tab">Services</Nav.Link>
             {/* <Nav.Link as={Link} to="/Ventures" className="nav-item tab">Our Clients</Nav.Link> */}
-            <Nav.Link as={Link} to="/Contact" className="nav-item tab">Contact Us</Nav.Link>
+            <Nav.Link as={Link} to="/Contact-us" className="nav-item tab">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </div>
