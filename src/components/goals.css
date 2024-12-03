@@ -1,0 +1,89 @@
+/* Container Styling */
+.unique-homepage-container {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Image Section */
+.unique-image-section {
+  text-align: center;
+}
+
+.unique-main-image {
+  max-height: 300px;
+  object-fit: cover;
+  width: 90% !important;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Section */
+.unique-text-section {
+  color: black !important; /* Dark text color */
+}
+
+.unique-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black !important;
+  text-align: center;
+}
+
+.unique-subheading {
+  font-size: 1.2rem;
+  color: black !important;
+  text-align: center;
+}
+
+/* Info Section */
+.unique-info-section {
+  margin-top: 20px;
+ 
+}
+
+.unique-info-box {
+  text-align: left;
+}
+
+.unique-info-number {
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: #ffb619 !important;
+  text-align: center !important; /* Accent color */
+}
+
+.unique-info-text {
+  font-size: 1.2rem !important;
+  color: black !important;
+  text-align: center !important;
+}
+
+/* Button Styling */
+.unique-contact-button {
+  background-color: #ff7b00;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.unique-contact-button:hover {
+  background-color: #e66a00;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .unique-text-section {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .unique-info-section {
+    text-align: center;
+  }
+
+  .unique-info-box {
+    margin-bottom: 20px;
+  }
+
+}

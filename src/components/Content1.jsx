@@ -30,7 +30,7 @@ import './Content1.css';
 
 function Content1() {
   return (
-    <div className="container py-5">
+    <div className="s-container py-5">
       <div className="row">
         <div className="col-md-8 mx-auto text-center" style={{ marginTop: "10rem" }}>
           <p className="display-4 custom-heading">

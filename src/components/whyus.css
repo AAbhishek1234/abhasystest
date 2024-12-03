@@ -1,0 +1,16 @@
+.wy-text-muted{
+    font-size: 1.1rem !important;
+}
+
+/* General Whyus Card Styles */
+.whyus-card {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover Effect for Whyus Cards */
+  .whyus-card:hover {
+    background-color: #FFDAB9 !important; /* Specific hover color */
+    transform: translateY(-5px);
+    font-weight: bold;
+  }
+  

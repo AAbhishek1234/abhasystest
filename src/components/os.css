@@ -1,0 +1,17 @@
+.service-col {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .text-muted{
+    color: black !important;
+    text-align: left !important;
+  }
+  .fw-bold{
+    font-size: 1.4rem !important;
+  }
+
+
+  .h-my-4{
+    margin-top: 2rem !important;
+  }
+

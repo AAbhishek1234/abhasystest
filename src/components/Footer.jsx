@@ -67,9 +67,6 @@
 // };
 
 // export default Footer;
-
-
-
 import React from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { scroller } from 'react-scroll';
@@ -83,7 +80,12 @@ const Footer = () => {
 
   const handleScrollOrNavigate = (path, targetId) => {
     if (location.pathname === '/home') {
-      scroller.scrollTo(targetId, { smooth: true, duration: 500, offset: -70 });
+      if (targetId) {
+        scroller.scrollTo(targetId, { smooth: true, duration: 10, offset: -70 });
+      } else {
+        // Scroll to top when 'Home' link is clicked
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
     } else {
       navigate(path, { state: { targetId } });
     }
@@ -97,7 +99,11 @@ const Footer = () => {
           <div className="col-md-4 mb-3">
             <h5>Company</h5>
             <ul className="list-unstyled">
-              <li><Link to="/home" style={{ color: "white", textDecoration: "none" }}>Home</Link></li>
+              <li>
+                <Link to="/home" style={{ color: "white", textDecoration: "none" }} onClick={() => handleScrollOrNavigate('/home')}>
+                  Home
+                </Link>
+              </li>
               <li>
                 <a
                   onClick={() => handleScrollOrNavigate('/home', 'about')}
@@ -114,7 +120,11 @@ const Footer = () => {
                   Services
                 </a>
               </li>
-              <li><Link to="/Contact-us" style={{ color: "white", textDecoration: "none" }}>Contact Us</Link></li>
+              <li>
+                <Link to="/Contact-us" style={{ color: "white", textDecoration: "none" }}>
+                  Contact Us
+                </Link>
+              </li>
             </ul>
           </div>
 
