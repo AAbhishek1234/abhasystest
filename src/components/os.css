@@ -15,3 +15,62 @@
     margin-top: 2rem !important;
   }
 
+
+/* Mobile Specific Styles */
+@media (max-width: 576px) {
+  /* Adjust Section Header */
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+ .se-fw-bold{
+  font-size: 2rem !important;
+  font-weight: bold !important;
+ }
+  /* Card Adjustments */
+  .card {
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
+
+  .card img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Spacing Adjustments */
+  .h-my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+/* Tablet Specific Styles */
+@media (min-width: 577px) and (max-width: 768px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .card img {
+    width: 45px;
+    height: 45px;
+  }
+}
