@@ -15,6 +15,7 @@ import Goals from '../components/Goals'
 import Os from  '../components/Os'
 import OurClients from '../components/OurClients';
 import Whyus from '../components/Whyus';
+import LatestNews from '../components/LatestNews';
 function Home() {
     const location = useLocation();
   
@@ -50,7 +51,7 @@ function Home() {
     {/* <Content5></Content5> */}
     <Whyus></Whyus>
     <OurClients></OurClients>
-   
+   <LatestNews></LatestNews>
     <Footer></Footer>
     </>
   )

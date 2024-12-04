@@ -92,7 +92,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-dark text-white pt-4">
+    <footer className="bg-dark text-white pt-4" style={{marginTop:"1rem"}}>
       <div className="container">
         <div className="row">
           {/* Company Section */}
