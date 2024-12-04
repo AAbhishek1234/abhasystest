@@ -16,6 +16,7 @@ import Os from  '../components/Os'
 import OurClients from '../components/OurClients';
 import Whyus from '../components/Whyus';
 import LatestNews from '../components/LatestNews';
+import Nbr from '../components/Nbr'
 function Home() {
     const location = useLocation();
   
@@ -31,7 +32,7 @@ function Home() {
   
   return (
     <>
-    {/* <section> </section> */}
+     {/* <Nbr></Nbr>  */}
       <CusNavbar></CusNavbar>
     <Banner></Banner>
     <Content1></Content1>
@@ -53,6 +54,7 @@ function Home() {
     <OurClients></OurClients>
    <LatestNews></LatestNews>
     <Footer></Footer>
+  
     </>
   )
 }
