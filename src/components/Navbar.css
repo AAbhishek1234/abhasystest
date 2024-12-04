@@ -79,6 +79,9 @@
     }
     .navbar-brand img {
         height: 25px !important; /* Slightly smaller for mobile */
-        margin-top: 1rem !important; /* Remove extra margin */
+        margin-top: 1rem !important; /* Adjust margin */
+    }
+    .navbar .nav-item {
+        font-size: 18px !important; /* Increase font size for mobile */
     }
 }
