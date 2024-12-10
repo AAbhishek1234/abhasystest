@@ -48,7 +48,7 @@ const Services = () => {
       <div className="text-center mb-5">
         {/* <p className="text-warning fw-bold">WHAT WE PROVIDE</p> */}
         <h1 className="se-fw-bold">
-          <span className="text-warning" >Our</span> Services
+          <span className="text-warning" >What </span> We Do
         </h1>
       </div>
 
