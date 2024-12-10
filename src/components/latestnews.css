@@ -11,4 +11,15 @@
     height: 200px; /* Set a fixed height for images */
     object-fit: cover; /* Ensures images maintain aspect ratio and fill the space */
   }
-  
+  .mb-4{
+    font-size: 2.5rem !important;
+  }
+
+
+
+  @media (max-width: 576px) {
+    .mb-4 {
+      font-size: 2rem !important;
+      color: black;
+    }
+  }

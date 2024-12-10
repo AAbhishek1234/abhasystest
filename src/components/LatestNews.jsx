@@ -39,7 +39,7 @@ const LatestNews = () => {
 
   return (
     <Container className="mt-4">
-      <h1 className="mb-4 text-center">Latest IT News</h1>
+      <h1 className="mb-4 text-center" style={{fontSize:"2.5rem",fontWeight:"bold"}}>Latest IT News</h1>
       <Row className="g-4">
         {blogs.map((blog) => (
           <Col key={blog.id} xs={12} sm={6} md={4}>

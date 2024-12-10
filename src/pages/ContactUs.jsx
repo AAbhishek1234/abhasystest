@@ -19,10 +19,10 @@ function ContactUs() {
           {/* Contact Information */}
           <Col xs={12} md={4} className="contact-info text-center mb-4">
             <h4>Get in Touch</h4>
-            <p>We'd love to hear from you! Reach out via any of the methods below:</p>
+            <p id='cts'>We'd love to hear from you! Reach out via any of the methods below:</p>
 
-            <p><strong>Email:</strong> contactabhasys@gmail.com</p>
-            <p><strong>Phone:</strong> +91 9717024896</p>
+            <p id='eml'><strong>Email:</strong> contactabhasys@gmail.com</p>
+            <p id='phn'><strong>Phone:</strong> +91 9717024896</p>
           </Col>
 
           {/* Contact Form */}

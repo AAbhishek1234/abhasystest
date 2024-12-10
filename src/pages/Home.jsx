@@ -16,7 +16,7 @@ import Os from  '../components/Os'
 import OurClients from '../components/OurClients';
 import Whyus from '../components/Whyus';
 import LatestNews from '../components/LatestNews';
-import Nbr from '../components/Nbr'
+import OurCompanySkills from '../components/OurCompanySkills';
 function Home() {
     const location = useLocation();
   
@@ -43,6 +43,7 @@ function Home() {
     <section id='services'>
     <Os></Os>
     </section>
+    <OurCompanySkills></OurCompanySkills>
     {/* <section id='services'>
     <Content2/>
     </section> */}
@@ -51,6 +52,7 @@ function Home() {
     {/* <Content4></Content4> */}
     {/* <Content5></Content5> */}
     <Whyus></Whyus>
+
     <OurClients></OurClients>
    <LatestNews></LatestNews>
     <Footer></Footer>

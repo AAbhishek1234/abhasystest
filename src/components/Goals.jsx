@@ -14,7 +14,7 @@ const HomePage = () => {
 
         {/* Right Section: Text and Info */}
         <Col md={6} className="unique-text-section text-start">
-          <h2 className="unique-heading">Our Main Goal</h2>
+          <h1 className="unique-heading">Our Main Goal</h1>
           <p className="unique-subheading mt-3">
             Guiding Our Work
             <br />

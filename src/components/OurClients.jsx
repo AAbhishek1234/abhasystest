@@ -16,7 +16,7 @@ const clients = [
 function OurClients() {
   return (
     <Container className="our-clients-section" fluid>
-      <h2 className="client-section-heading text-center mb-4" style={{marginTop:"-2px"}}>Our Clients</h2>
+      <h1 className="client-section-heading text-center mb-4" style={{marginTop:"-2px"}}>Our Clients</h1>
       <Row className="justify-content-center">
         {clients.map((client) => (
           <Col xs={12} sm={6} md={4} lg={3} key={client.id} className="mb-4">

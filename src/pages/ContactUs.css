@@ -1,27 +1,36 @@
 .contact-us-section {
-    background-color: #f8f9fa;
+    background-color: #f8f9fa !important;
   }
   
   .contact-info h4 {
-    color: #333;
+    color: black !important;
   }
   
   .contact-info p {
-    margin: 0.5rem 0;
-    color: #555;
+    margin: 0.5rem 0 !important;
+    color: black !important;
   }
   
   .contact-info a {
-    color: #0d6efd;
-    text-decoration: none;
+    color: #0d6efd !important;
+    text-decoration: none !important;
   }
   
   .social-media-links i {
     color: #0d6efd;
-    margin: 0 10px;
+    margin: 0 10px !important;
   }
   
   .social-media-links i:hover {
     color: #0056b3;
   }
   
+  #cts{
+    font-size: 20px !important;
+  }
+  #eml{
+    font-size: 20px !important;
+  }
+  #phn{
+    font-size: 20px !important;
+  }
