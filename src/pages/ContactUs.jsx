@@ -12,7 +12,7 @@ function ContactUs() {
   return (
     <>
       <CustomNavbar />
-      <Container fluid className="contact-us-section py-4" style={{ marginTop: '5rem'}}>
+      <Container fluid className="contact-us-section py-5" style={{ marginTop: '5rem'}}>
         <h2 className="text-center mb-4">Contact Us</h2>
 
         <Row className="justify-content-center">
