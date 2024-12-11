@@ -34,3 +34,10 @@
   #phn{
     font-size: 20px !important;
   }
+
+
+  @media(max-width:768px){
+    .contact-info h4{
+      margin-top: 1rem !important;
+    }
+  }
