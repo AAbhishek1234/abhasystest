@@ -10,10 +10,10 @@ const services = [
     icon: "/Images/webd.png", // Replace with actual icon URL
   },
   {
-    title: "Startup Solutions",
+    title: "Social Media Management",
     description:
-      "startups looking to secure funding, we offer expert assistance in preparing pitch decks, business plans, and presentations that highlight your company’s potential. We guide you through the fundraising process, connecting you with potential investors and helping you position your startup for success.",
-    icon: "/Images/startup.png",
+      "We help maximize our client's online impact with our expert social media management services! We create compelling content, increase engagement and grow audience across all platforms. Let us handle your digital strategy while you focus on your business. Drive traffic, grow followers and stand out with us—your trusted social media partner!",
+    icon: "/Images/smm.png",
   },
   {
     title: "Digital Marketing",
@@ -48,7 +48,7 @@ const Services = () => {
       <div className="text-center mb-5">
         {/* <p className="text-warning fw-bold">WHAT WE PROVIDE</p> */}
         <h1 className="se-fw-bold">
-          <span className="text-warning" >What </span> We Do
+          <span className="text-warning" > </span> What We Do
         </h1>
       </div>
 

@@ -12,8 +12,8 @@ function Banner() {
     <div className='Banner' style={{marginTop:"6rem"}}>
     <div className='banner-content' >
     <div className="heading">
-  Got an <span id='idea' >idea?/already</span><br/>
-   doing an offline  <span id='idea' >business?</span><br/>
+  Got an <span id='idea' >idea?</span> Or<br/>
+Doing an offline<span id='idea'> business?</span><br/>
   Take it to the whole world<br/>
   <div className="scroll-container">
     <div className="scroll-up-down">

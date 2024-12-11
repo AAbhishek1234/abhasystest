@@ -23,15 +23,17 @@
 
 .unique-heading {
   font-size: 2.5rem;
-  font-weight: bold;
   color: black !important;
   text-align: center;
+  margin-top: 1rem !important;
+  position: absolute !important;
 }
 
 .unique-subheading {
   font-size: 1.2rem;
   color: black !important;
   text-align: center;
+  margin-top: 5rem !important;
 }
 
 /* Info Section */
@@ -79,6 +81,8 @@
   }
   .unique-heading{
     font-size: 2rem !important;
+    margin-left: 1rem !important;
+
   }
 
   .unique-info-section {

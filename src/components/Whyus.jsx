@@ -6,8 +6,8 @@ const services = [
   "Solving IT Problems",
   "Practice IT Management",
   "IT Security Services",
-  "Managed IT Service",
-  "Cloud Services",
+  // "Managed IT Service",
+  // "Cloud Services",
 ];
 
 const Whyus = () => {
@@ -27,12 +27,12 @@ const Whyus = () => {
         {/* Right Column: Content */}
         <Col lg={6}>
           {/* <p className="text-warning fw-bold mb-2">WHY CHOOSE US?</p> */}
-          <h2 className="wy-fw-bold" style={{ fontWeight: "700" }}>
-            In a World of Technology, People Make the Difference
-          </h2>
+          <h3 className="wy-fw-bold" >
+     
+            In the world of IT service, what matters most is the commitment to deliver the robust solution in time!
+          </h3>
           <p className="wy-text-muted">
-            Our expertise combines cutting-edge technology with a human touch,
-            ensuring innovative solutions tailored to your unique needs. 
+          Our expertise combines cutting-edge technology with a human touch, ensuring innovative and robust solutions tailored to our client's unique needs. 
           </p>
 
           {/* Services Buttons Styled as Cards */}

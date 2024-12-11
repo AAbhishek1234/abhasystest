@@ -9,7 +9,7 @@ const clients = [
   { id: 3, name: 'CollegeMilgya', logo: '/Images/Screenshot (333).png' },
   { id: 4, name: 'Dreams On Wheelz', logo: '/Images/dreamslogo.jpg' },
   { id: 5, name: 'Kanchan Vidya Mandir', logo: '/Images/logokanchan.png' },
-  { id: 6, name: 'EduNurtureWay', logo: '/Images/edu.jpg' },
+  { id: 6, name: 'Tathastu', logo: '/Images/tathastu-logo.png' },
  
 ];
 

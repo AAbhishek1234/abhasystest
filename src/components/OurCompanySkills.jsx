@@ -8,9 +8,7 @@ const OurCompanySkills = () => {
       {/* Title Section */}
       <h1 className="strength-fw-bold mb-3">Our Strength</h1>
       <p className=" stp-text-muted mb-5" style={{fontSize:"1.2rem",color:"black"}}>
-      We leverage cutting-edge tools and technologies to stay ahead in the competitive market.<br/>
-      By optimizing workflows and focusing on results, we consistently deliver exceptional value.
-
+      We leverage cutting-edge tools and technologies to stay ahead in the competitive market. We consistently deliver<br/> exceptional value to our clients by optimizing workflows and focusing on processes to bring out exceptional results. 
       </p>
       <Row className="align-items-center">
         {/* Left Column */}
