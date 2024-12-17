@@ -1,38 +1,51 @@
+/* Container Styles */
+.h-my-4 {
+  margin-top: 2rem !important;
+}
+
+/* Column Padding */
 .service-col {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .text-muted{
-    color: black !important;
-    text-align: left !important;
-  }
-  .fw-bold{
-    font-size: 1.4rem !important;
-  }
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
+/* Card Styling */
+.card-icon {
+  display: block; /* Ensures the icon is treated as a block */
+  margin: 0 auto; /* Centers the icon horizontally */
+  max-width: 100%; /* Ensures responsiveness */
+  height: auto; /* Maintains aspect ratio */
+  width: 50px; /* Default width for larger screens */
+  height: 50px; /* Default height for larger screens */
+}
 
-  .h-my-4{
-    margin-top: 2rem !important;
-  }
+.text-muted {
+  color: black !important;
+  text-align: left !important;
+}
 
+.fw-bold {
+  font-size: 1.4rem !important;
+}
 
 /* Mobile Specific Styles */
 @media (max-width: 576px) {
-  /* Adjust Section Header */
-  h1 {
-    font-size: 1.5rem;
-    line-height: 1.2;
-  }
- .se-fw-bold{
-  font-size: 2rem !important;
-  font-weight: bold !important;
- }
-  /* Card Adjustments */
-  .card {
-    margin-bottom: 1rem;
-    padding: 1rem;
+  .se-fw-bold {
+    font-size: 2rem !important;
+    font-weight: bold !important;
   }
 
+  /* Center text and icon for mobile */
+  .card {
+    text-align: center;
+  }
+
+  .card-icon {
+    width: 40px; /* Reduce icon size for mobile */
+    height: 40px;
+  }
+
+  /* Adjust text spacing */
   .card-title {
     font-size: 1rem;
   }
@@ -41,9 +54,6 @@
     font-size: 1.2rem;
   }
 
- 
-
-  /* Spacing Adjustments */
   .h-my-4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -66,5 +76,9 @@
     font-size: 1.2rem !important;
   }
 
+  .card-icon {
+    width: 45px; /* Adjust icon size for tablets */
+    height: 45px;
+  }
  
 }

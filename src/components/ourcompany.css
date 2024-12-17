@@ -1,6 +1,9 @@
 .ourstrength{
     text-align: center !important;
 }
+body, html {
+  overflow-x: hidden;
+}
 
 
 .icon {
@@ -36,4 +39,6 @@
     .strength{
         font-size: 2rem !important;
       }
-  }
+  } 
+
+

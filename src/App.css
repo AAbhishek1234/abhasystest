@@ -1,5 +1,5 @@
 body, html {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 .Banner, .heading, #vector {
     padding: 0;
@@ -32,3 +32,100 @@ body, html {
     flex-wrap: wrap;
     justify-content: space-between; /* Use wrap and ensure spacing */
 }
+
+
+/* Global CSS to hide overflow */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: auto;   /* Allow vertical scrolling */
+    width: 100%;
+  }
+  
+  /* Box-sizing ensures padding and borders are included in width/height */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Reset common margins and paddings */
+  body {
+    font-family: Arial, sans-serif; /* Set default font-family */
+    line-height: 1.6; /* Improve readability */
+  }
+  
+  /* Prevent unwanted overflow from media (images, videos, etc.) */
+  img, video, iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Prevent large elements from overflowing */
+  .container-fluid, .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  .col {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+    
+
+
+
+
+  @media (max-width: 768px) {
+    html, body {
+      overflow-x: hidden; /* Ensure no overflow */
+      width: 100%;
+    }
+  
+    /* Fix rows and columns from Bootstrap */
+    .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  
+    .col, .container, .container-fluid {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      max-width: 100%;
+    }
+  
+    /* Ensure images fit inside the viewport */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  
+    /* Prevent icons or absolute elements from overflowing */
+    .icon {
+      max-width: 100%;
+      height: auto;
+      position: relative;
+    }
+  
+    /* Fix any additional spacing issues */
+    * {
+      box-sizing: border-box;
+    }
+  }
+  @media (max-width: 375px) {
+    /* Adjust styles for very narrow viewports */
+    .container {
+      padding: 0;
+      max-width: 100%;
+    }
+  }
+    

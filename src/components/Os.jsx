@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import "./os.css"; // Import external CSS (optional)
+import "./os.css"; // Import updated external CSS
 
 const services = [
   {
@@ -43,12 +43,11 @@ const services = [
 
 const Services = () => {
   return (
-    <Container className=" h-my-4">
+    <Container className="h-my-4">
       {/* Section Header */}
       <div className="text-center mb-5">
-        {/* <p className="text-warning fw-bold">WHAT WE PROVIDE</p> */}
         <h1 className="se-fw-bold">
-          <span className="text-warning" > </span> What We Do
+          <span className="text-warning"></span> What We Do
         </h1>
       </div>
 
@@ -60,19 +59,17 @@ const Services = () => {
             sm={12}
             md={6}
             lg={4}
-            style={{ paddingLeft: "15px", paddingRight: "15px" }} // Add horizontal spacing
+            className="service-col" // Add a class for easier customization
           >
-            
             <Card className="shadow-sm border-0 h-100 text-center">
               <Card.Body>
                 <img
                   src={service.icon}
                   alt={service.title}
-                  className="mb-3"
-                  style={{ width: "50px", height: "50px" }}
+                  className="mb-3 card-icon" // Add class for icon styling
                 />
                 <Card.Title className="fw-bold">{service.title}</Card.Title>
-                <Card.Text className="text-muted" style={{ color: "black" }}>
+                <Card.Text className="text-muted">
                   {service.description}
                 </Card.Text>
               </Card.Body>
